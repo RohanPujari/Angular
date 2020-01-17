@@ -1,0 +1,18 @@
+create table Aadhar_Card(
+Aadhar_no Number(10),
+Name varchar2(10) Not null,
+Father_name varchar2(10) Not null,
+Date_of_Birth  date,
+Gender varchar2(10),
+Door_no Number(10),
+Street varchar2(10),
+District varchar2(10),
+City varchar2(10),
+state varchar2(10),
+pin_code Number(10),
+Mobile_no Number(10),
+constraint pk_Aadhar_Card primary key(Aadhar_no)
+);
+
+insert into Aadhar(Aadhar_no,Name,Father_name,Date_of_Birth,Gender,Door_no,Street,Landmark,City,District,state,pin_code,Mobile_no)
+values into(240248034268,"Shaik Mehtaj","Shaik Siraz",'12071997',"Female",18/792/5,"Thilak nagar","Life line hospital","Guntakal","Anantapur","Andhra pradesh",515801,6302489371);

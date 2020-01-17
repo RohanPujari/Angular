@@ -1,0 +1,17 @@
+.header{
+    padding: 5px;
+    background-color: darkgray;
+    border: 20px 20px 20px 20px;
+}
+.values{
+    vertical-align: auto;
+    color: white;
+
+}
+ul li{
+    display: inline;
+    background-color: tomato ;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
